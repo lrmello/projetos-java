@@ -7,7 +7,7 @@ public class Lojinha {
     }
 
     static void apresentarBoasVindas(){
-        
+
     }
     public static void main(String[] args) {
 
