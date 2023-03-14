@@ -25,6 +25,14 @@ public class GeometriaApp {
         retangulos.remove(retangulo);
         retangulos.get(0);
 
+        for(int i = 0;i < retangulos.size();i++){
+            System.out.println(retangulos.get(i) + "");
+        }
+
+        Object o;
+
+        retangulos.forEach(e -> System.out.println(e + ""));
+        retangulos.stream().filter(r ->r.getAltura()>2.0).map(r->r.getCor()).toList();
 
     }
 }
