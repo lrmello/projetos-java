@@ -12,8 +12,8 @@ public class ContaPoupanca extends Conta {
     }
 
     public void guardar(double quantia){
-        if(saldo<quantia){
-            return;
+        if(saldo < quantia){
+           return;
         }
 
         saldoGuardado += quantia;
