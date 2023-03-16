@@ -7,7 +7,15 @@ public class Conta {
     private String senha;
     private String saldo;
 
+    private boolean ativa;
+
     public Conta(String codigo, Cliente titular, String apelido, String senha, String saldo) {
+        this.codigo = codigo;
+        this.senha = senha;
+        this.saldo = saldo;
+    }
+
+    public Conta(String codigo, Cliente titular, String senha, String saldo) {
         this.codigo = codigo;
         this.titular = titular;
         this.senha = senha;
@@ -46,16 +54,26 @@ public class Conta {
         this.saldo = saldo;
     }
 
+    public boolean isAtiva(){
+        return ativa;
+    }
 
     /*metodos*/
-
     @Override
     public String toString() {
         return "Conta{" +
                 "codigo='" + codigo + '\'' +
-                ", titular=" + titular +
                 ", senha='" + senha + '\'' +
                 ", saldo='" + saldo + '\'' +
                 '}';
+    }
+
+    public boolean depositar(double quantia){
+        if (!ativa) {
+            System.err.println("Erro para depositar: conta inativa");
+            return false;
+        }
+       this.saldo += quantia;
+            return true;
     }
 }
