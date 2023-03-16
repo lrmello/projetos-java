@@ -11,11 +11,6 @@ public class ContaPoupanca extends Conta {
         this.codigoDeOperacao = codigoDeOperacao;
     }
 
-    public void guardar(double quantia){
-        if(saldo < quantia){
-           return;
-        }
 
-        saldoGuardado += quantia;
-    }
 }
+

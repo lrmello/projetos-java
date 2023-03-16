@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b0f8446-4843-4959-8d03-5a352c18668b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Empresa/src/main/java/model/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Empresa/src/main/java/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula5/ProjetoByteBank/src/model/Endereco.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2N6ipSpKwOG3nA5qJfz1icDVLQQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/LRMello/Documents/GitHub/projetos-java/modulo 4/aula8"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b0f8446-4843-4959-8d03-5a352c18668b" name="Changes" comment="" />
+      <created>1678991114494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678991114494</updated>
+    </task>
+    <servers />
+  </component>
+</project>

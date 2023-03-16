@@ -9,8 +9,6 @@ public class Endereco {
     private String estado;
 
 
-
-
     public String getRua() {
         return rua;
     }
