@@ -1,9 +1,6 @@
 package com.api.produto.modelo;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.Id;
-import javax.persistence.GeneratedValue;
+import javax.persistence.*;
 
 @Entity
 @Table(name="produtos")
